@@ -2,3 +2,7 @@ wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudfla
 sudo cp ./cloudflared-linux-arm /usr/local/bin/cloudflared
 sudo chmod +x /usr/local/bin/cloudflared
 cloudflared -v
+
+
+
+sudo cloudflared service install [your token]
